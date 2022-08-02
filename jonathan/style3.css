@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  background: url(b.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+}
+
+.navbar {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo {
+  color: bisque;
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+}
+
+.menu {
+  width: 400;
+  float: left;
+  height: 70px;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: bisque;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+  color: darkred;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+  grid-auto-rows: minmax(200px, auto);
+  justify-items: stretch;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+.wrapper > div {
+  color: wheat;
+  border-radius: 10px;
+}
+
+.box1 {
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 15px #333;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+ol {
+  float: left;
+  display: list-item;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding-bottom: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+ol li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+.box2 {
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 15px #333;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.box3 {
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 15px #333;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.box1:hover {
+  transform: scale(1.04);
+}
+.box2:hover {
+  transform: scale(1.04);
+}
+.box3:hover {
+  transform: scale(1.04);
+}
